@@ -1,0 +1,58 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="MainTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimaryMain</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkMain</item>
+        <item name="colorAccent">@color/colorAccentMain</item>
+        <item name="android:windowContentTransitions">true</item>
+        <item name="android:windowExitTransition">@android:transition/slide_top</item>
+        <item name="android:windowEnterAnimation">@android:transition/explode</item>
+        <item name="android:windowReenterTransition">@android:transition/slide_top</item>
+    </style>
+
+    <style name="ScanTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimaryMain</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkMain</item>
+        <item name="colorAccent">@color/colorAccentMain</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <style name="SplashTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowBackground">@drawable/ui_background_splash</item>
+        <item name="android:colorPrimaryDark">@color/Bisque</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentTransitions">true</item>
+        <item name="android:windowExitTransition">@android:transition/explode</item>
+        <item name="android:windowEnterAnimation">@android:transition/explode</item>
+        <item name="android:windowReenterTransition">@android:transition/slide_top</item>
+    </style>
+
+    <style name="NaviDialogTheme" parent="android:Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="Normal_Button" parent="Widget.AppCompat.Button">
+        <item name="android:background">@drawable/btn_style_nor_selector</item>
+    </style>
+
+    <style name="Normal_ImageButton" parent="Base.Widget.AppCompat.Button">
+        <item name="android:background">@drawable/btn_style_nor_selector</item>
+    </style>
+
+    <style name="Round_Button" parent="Widget.AppCompat.Button">
+        <item name="android:background">@drawable/btn_style_rc_selector</item>
+    </style>
+</resources>

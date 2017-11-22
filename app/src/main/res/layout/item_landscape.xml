@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="5dp">
+
+    <android.support.v7.widget.CardView
+            android:id="@+id/card_item"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:clickable="true"
+            app:cardCornerRadius="3dp"
+            app:cardElevation="8dp"
+            app:cardUseCompatPadding="true">
+
+        <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            <FrameLayout
+                    android:id="@+id/news_header"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                <ImageView
+                        android:id="@+id/image_view_item"
+                        android:scaleType="centerCrop"
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:transitionName="shared_header"/>
+
+                <TextView
+                        android:id="@+id/text_view_item_title"
+                        android:layout_gravity="bottom"
+                        android:background="@color/BackgroundTitle"
+                        android:maxLines="1"
+                        android:textSize="20sp"
+                        android:padding="5dp"
+                        android:textColor="#ffffff"
+                        android:gravity="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:transitionName="shared_title"/>
+            </FrameLayout>
+
+            <TextView
+                    android:id="@+id/text_view_item_content"
+                    android:maxLines="2"
+                    android:layout_below="@+id/news_header"
+                    android:layout_margin="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:transitionName="shared_content"/>
+
+            <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_below="@+id/text_view_item_content"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                <Button
+                        android:id="@+id/btn_share"
+                        android:text="分享"
+                        style="@style/Base.Widget.AppCompat.Button.Borderless"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginEnd="20dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        />
+
+                <Button
+                        android:id="@+id/btn_more"
+                        style="@style/Base.Widget.AppCompat.Button.Borderless"
+                        android:textColor="@color/colorAccent"
+                        android:text="更多"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        />
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+
+    </android.support.v7.widget.CardView>
+
+
+</RelativeLayout>

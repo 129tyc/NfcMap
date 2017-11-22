@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+            android:drawable="@color/Bisque"/>
+    <item
+            android:drawable="@drawable/ui_logo"
+            android:gravity="center"
+            android:height="@dimen/HEIGHT_LOGO"
+            android:width="@dimen/WIDTH_LOGO"/>
+    
+</layer-list>

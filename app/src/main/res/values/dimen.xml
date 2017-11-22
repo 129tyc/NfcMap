@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="WIDTH_LOGO">128dp</dimen>
+    <dimen name="HEIGHT_LOGO">128dp</dimen>
+    <dimen name="WIDTH_DIALOG">256dp</dimen>
+</resources>

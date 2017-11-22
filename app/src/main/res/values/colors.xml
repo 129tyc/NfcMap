@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorPrimaryMain">#ffe4c4</color>
+    <color name="colorPrimaryDarkMain">#a99680</color>
+    <color name="colorAccentMain">#40ffd7</color>
+    <color name="gainsboro">#dcdcdc</color>
+    <color name="linen">#FAF0E6</color>
+    <color name="Bisque">#FFE4C4</color>
+    <color name="BackgroundTitle">#19000000</color>
+</resources>

@@ -1,0 +1,94 @@
+<MapPaint>
+    <Point
+            paintType="bitmap"
+            specifyType="Interest"
+            specifyData="InterestType,BUILDING ImportantLevel,NORMAL"
+            src="map_icon_building"
+            scale="1.0f"
+            />
+    <Point
+            paintType="bitmap"
+            specifyType="Interest"
+            specifyData="InterestType,TOILET ImportantLevel,NORMAL"
+            src="map_icon_toilet"
+            scale="1.0f"
+            />
+    <Point
+            paintType="bitmap"
+            specifyType="Interest"
+            specifyData="InterestType,RESTAURANT ImportantLevel,NORMAL"
+            src="map_icon_restaurant"
+            scale="1.0f"
+            />
+    <Point
+            paintType="bitmap"
+            specifyType="Interest"
+            specifyData="InterestType,ENTRANCE ImportantLevel,NORMAL"
+            src="map_icon_entrance"
+            scale="1.0f"
+            />
+
+    <Point
+            paintType="bitmap"
+            specifyType="Interest"
+            specifyData="InterestType,LANDSCAPE ImportantLevel,NORMAL"
+            src="map_icon_landscape"
+            scale="1.0f"
+            />
+
+    <!--<Point-->
+            <!--paintType="bitmap"-->
+            <!--specifyType="LinkPoint"-->
+            <!--src="little_circle"-->
+            <!--scale="1.0f"-->
+            <!--/>-->
+    <Path
+            paintType="canvas"
+            specifyType="Road"
+            specifyData="RoadLevel,LANE PassLevel,NORMAL"
+            paintColor="WHITE"
+            strokeWidth="8.0"
+            style="STROKE"
+            alpha="255"
+            scale="1.0f"
+            />
+    <Path
+            paintType="canvas"
+            specifyType="Road"
+            specifyData="RoadLevel,LANE PassLevel,NON_MOTOR"
+            paintColor="CYAN"
+            strokeWidth="8.0"
+            style="STROKE"
+            alpha="100"
+            scale="1.0f"
+            />
+    <Path
+            paintType="canvas"
+            specifyType="LinePath"
+            paintColor="WHITE"
+            strokeWidth="0.0"
+            style="STROKE"
+            alpha="0"
+            scale="1.0f"
+            />
+    <Path
+            paintType="canvas"
+            specifyType="LinePath"
+            specifyData="PathAttribute,Navi"
+            paintColor="GREEN"
+            strokeWidth="10.0"
+            style="STROKE"
+            alpha="255"
+            scale="1.0f"
+            />
+    <Tag
+            paintType="canvas"
+            specifyType="all"
+            typeFace="default"
+            textAlign="center"
+            paintColor="Black"
+            textSize="33"
+            textMargin="45"
+            alpha="100"
+            />
+</MapPaint>
